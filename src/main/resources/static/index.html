@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CodeGuardian</title>
+</head>
+
+<body>
+
+<h1>CodeGuardian</h1>
+
+<p>Upload a Java file to scan it for vulnerabilities.</p>
+
+<form action="/api/upload" method="post" enctype="multipart/form-data">
+
+    <input type="file" name="file" accept=".java">
+
+    <button type="submit">Upload Java File</button>
+
+</form>
+
+</body>
+</html>
